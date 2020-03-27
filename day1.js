@@ -152,3 +152,36 @@ console.log(result)
 // And Operations --> If one condition is false then all of it is false
 // Or Operations --> If one condition is true then all of it is true
 */
+
+// EXERCISE
+
+// 1
+const userName = "Joe"
+let userAge = 24
+
+// 2
+let message = "Hello " + userName + "!" + "You are " + userAge + " years old."
+
+// 3
+console.log(message)
+
+// 4
+let userAgeTimes2 = userAge * 2
+console.log(userAgeTimes2)
+
+let userAgePowerOfThree = userAge ** 3
+console.log(userAgePowerOfThree)
+
+// 5 
+
+console.log(userAge % 2) // even
+console.log(userAgeTimes2 % 2) // even
+console.log(userAgePowerOfThree % 2) // even
+
+// 6 
+
+console.log(true && true && false) // false
+console.log(false && true && true) // false
+console.log(true && (true || false)) // true
+console.log((true || true) || false) // true
+console.log((false || (true || false)) && (true || (true && (false || true)))) // true
