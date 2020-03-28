@@ -63,7 +63,7 @@ switch (day) {
 */
 
 // EXERCISE - CONDITIONALS
-
+/*
 // Copy this: const inputAge = prompt(“What’s your age?”).
 // If the age is greater than 50, then console.log(“age is just a number!”). Else, console.log(“You young and beautiful person!”)
 
@@ -135,4 +135,52 @@ while (number2 < 50) {
 
     if (number2 % 3 == 0 && number2 % 7 == 0) console.log(number2 + " is divisible by 3 and 7!")
     else console.log(number2 + " is not divisible by 3 and 7.")
+}
+*/
+// LOOPS
+
+/*
+for (let i = 0; i <= 100; i++) {
+    console.log(i)
+}
+
+let count = 0
+while (count <= 100) {
+    console.log(count)
+    count++
+}
+*/
+
+// EXERCISE - LOOPS
+
+// Print all the numbers from 1 to 250 to the console. Do it with a for loop and with a while loop.
+
+for (let i = 0; i <= 250; i++) console.log(i);
+
+let count = 0
+while (count <= 250) console.log(count++);
+
+// For all the numbers between 30 and 50, print in the console only those that are even.
+
+for (let i = 30; i <= 50; i++) if (i % 2 == 0) console.log(i)
+
+// While the number is smaller than 20, if the number is even print in the console “this number is even”; if not, print in the console “this number is odd".
+
+let number6 = 0
+while (number6 < 20) {
+    if (number6 % 2 == 0) console.log(number6 + " is even!")
+    else console.log(number6 + " is odd!")
+    number6++
+}
+
+// Print all the numbers from 73 to -5 to the console.
+
+for (let i = 73; i >= -5; i--) console.log(i)
+
+// Print all the numbers from 25 to -25 to the console. If the number is greater than 0, print in the console the number; If the number is smaller than zero, print to the console “negative number”. If the number is zero, print to the console “**Z E R O - 0**) 
+
+for (let i = 25; i >= -25; i--){
+    if (i > 0) console.log(i)
+    else if (i == 0) console.log("**Z E R O - 0**")
+    else console.log("negative number")
 }
