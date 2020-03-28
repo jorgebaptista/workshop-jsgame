@@ -35,7 +35,7 @@ $playButton.addEventListener("click", () => {
     const result = solveProblem($player1name, "computer", $player1select, computerPick);
     let resultText
 
-    result.winner !== "none" ? resultText = `Winner is ${result.winner} 🥇🍾 by doing [${emojis[result.winnerSelection]}] over [${emojis[result.looserSelection]}]` : resultText = "It was a tie! 🤷‍♂️🤷‍♀️"
+    result.winner !== "none" ? resultText = `Winner is ${result.winner} 🥇🍾 by doing [${emojis[result.winnerSelection]}] over [${emojis[result.loserSelection]}]` : resultText = "It was a tie! 🤷‍♂️🤷‍♀️"
 
 
     $result.innerText = "🥁🥁🥁🥁🥁🥁"
