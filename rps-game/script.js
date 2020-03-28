@@ -20,7 +20,7 @@ $playButton.addEventListener("click", () => {
     $compSelect.value = "computer"
 
     if (!$player1name) {
-        alert("Hey! You not playing?!")
+        alert("Hey! Want to play?! Pick a name!")
         return
     }
 
