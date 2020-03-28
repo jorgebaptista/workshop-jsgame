@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS - Rock, Paper, Scissors, Lizard, Spock</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title"><span class="blue">IronHack</span> JS Introductory Workshop</h1>
+        <h2 class="title" id="sub-title">Rock, Paper, Scissors, Lizard, Spoc</h2>
+        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" class='ih-logo'>
+        <div class="game-container">
+            <div class="sub-container">
+                <h3>Rules</h3>
+                <p class="basic-text"> This game emulates the popular game created in the Big Bang Theory, which
+                    basically is an extension of the widely know "Rock-Paper-Scissors"</p>
+                <p class="rules">The rules are as follows:</p>
+                <ul>
+                    <li class="basic-text">✂️ Scissors <span class="action">cut</span> 📃 Paper</li>
+                    <li class="basic-text">📃Paper <span class="action">covers</span> 🗿Rock</li>
+                    <li class="basic-text">🗿Rock <span class="action">crushes</span> 🦎Lizard</li>
+                    <li class="basic-text">🦎Lizard <span class="action">poisons</span> 🖖Spock</li>
+                    <li class="basic-text">🖖Spock <span class="action">smashes</span> ️✂️ Scissors</li>
+                    <li class="basic-text">✂️ Scissors <span class="action">decapitate</span> 🦎Lizard</li>
+                    <li class="basic-text">🦎Lizard <span class="action">eats</span> 📃Paper</li>
+                    <li class="basic-text">📃Paper <span class="action">disproves</span> 🖖Spock</li>
+                    <li class="basic-text">🖖Spock <span class="action">vaporizes</span> 🗿Rock</li>
+                    <li class="basic-text">🗿Rock <span class="action">crushes</span> ✂️ Scissors</li>
+                </ul>
+            </div>
+            <div class="sub-container">
+                <h3>Game!</h3>
+                <div class="sub-container_game">
+                    <div class="sub-container_game_nm">
+                        <h4>Enter Players Names</h4>
+                        <label class="basic-text" for="first-player">First Players' Name</label>
+                        <input id="first-player" type="text" placeholder="First Players Name">
+                        <label class="basic-text" for="second-player">Second Players' Name</label>
+                        <input id="second-player" value="Computer" type="text" placeholder="Second Players Name">
+                    </div>
+                    <div class="sub-container_game_nm">
+                        <h4>Players Select Moves</h4>
+                        <label class="basic-text" for="first-player-move">First Players' Move</label>
+                        <select id="first-player-move">
+                            <option value="rock">🗿Rock</option>
+                            <option value="paper">📃Paper</option>
+                            <option value="scissors">✂️ Scissors</option>
+                            <option value="lizard">🦎Lizard</option>
+                            <option value="spock">🖖Spock</option>
+                        </select>
+                        <label class="basic-text" for="second-player-move">Second Players' Move</label>
+                        <select id="second-player-move">
+                            <option value="computer">💻You Can't Know</option>
+                            <option value="rock">🗿Rock</option>
+                            <option value="paper">📃Paper</option>
+                            <option value="scissors">✂️ Scissors</option>
+                            <option value="lizard">🦎Lizard</option>
+                            <option value="spock">🖖Spock</option>
+                        </select>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+                <button id="play">Let's Play!</button>
+                <div class="result">
+                    <span id="result">RESULT GOES HERE</span>
+                </div>
+            </div>
+            <script src="solve.js"></script>
+            <script src="script.js"></script>
+</body>
+
+</html>
