@@ -1,4 +1,4 @@
-# workshop-jsgame
+# Rock, Paper, Scissors (Lizard, Spock)
 
 A Javascript game made in a workshop.
 
