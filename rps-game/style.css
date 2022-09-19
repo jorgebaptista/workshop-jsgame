@@ -12,14 +12,7 @@ body{
     align-content: center;
     justify-content: center;
     margin: 0 auto;
-  }
-  
-  .ih-logo{
-    position: absolute;
-    left: 85vw;
-    top: 2em
-  }
-  
+  }  
   
   .game-container{
     margin: 0 auto;
